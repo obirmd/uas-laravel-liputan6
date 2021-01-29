@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <link rel="icon" href="img/favico.png" type="image/gif" sizes="16x16">
         <title>Berita Terkini, Kabar Terbaru Hari Ini Indonesia dan Dunia - Liputan6.com</title>
 
         <!-- Fonts -->
@@ -20,9 +20,9 @@
                 margin: 0;
             }
 
-            .full-height {
-                height: 8vh;
-            }
+            /* .full-height {
+                height: 7vh;
+            } */
 
             .flex-center {
                 align-items: center;
@@ -36,8 +36,9 @@
 
             .top-right {
                 position: absolute;
-                right: 90px;
+                right: 115px;
                 top: 18px;
+                
             }
 
             .content {
@@ -51,7 +52,7 @@
 
             .links > a {
                 color: #636b6f;
-                padding: 0 25px;
+                /* padding: 0 25px; */
                 font-size: 13px;
                 font-weight: bold;
                 letter-spacing: .1rem;
@@ -67,19 +68,19 @@
     </head>
     <body>
         <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
+            <!-- @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
-                        <a href="{{ url('/home') }}">Dashboard</a>
+                        <a href="{{ url('/home') }}"><button type="button" class="btn btn-danger btn-sm">Dashboard</button></a>
                     @else
-                        <a href="{{ route('login') }}">Login</a>
+                        <a href="{{ route('login') }}"><button type="button" class="btn btn-danger btn-sm">Login</button></a>
 
                         @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
+                            <a href="{{ route('register') }}"><button type="button" class="btn btn-danger btn-sm">Register</button></a>
                         @endif
                     @endauth
                 </div>
-            @endif
+            @endif -->
 
             @extends ('layouts/main')
             @section ('show')

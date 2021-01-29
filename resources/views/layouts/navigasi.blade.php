@@ -11,6 +11,21 @@
                 <button type="button">Cari</button>
               </form>
               <!-- <a class="masuk" href="/login">MASUK</a> -->
+
+              @if (Route::has('login'))
+                <div class="top-right links">
+                    @auth
+                        <a href="{{ url('/home') }}"><button type="button" class="btn btn-danger btn-sm">Dashboard</button></a>
+                    @else
+                        <a href="{{ route('login') }}"><button type="button" class="btn btn-danger btn-sm">Login</button></a>
+
+                        @if (Route::has('register'))
+                            <a href="{{ route('register') }}"><button type="button" class="btn btn-danger btn-sm">Register</button></a>
+                        @endif
+                    @endauth
+                </div>
+            @endif
+            
             </nav>
             <ul class="nav">
                 <li class="nav-item">
