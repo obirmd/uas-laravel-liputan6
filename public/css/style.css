@@ -1,0 +1,416 @@
+form {
+    margin-right: 30%;
+    width: 2500px;
+}
+
+form input, text{
+    width: 400px;
+    border-radius: 50px;
+    padding: 8px;
+    border: 1px solid rgb(180, 170, 170);
+}
+
+form button {
+        background-color: rgb(247, 73, 43);
+        height: 40px;
+        width: 90px;
+        border: none;
+        color: aliceblue;
+        border-radius: 50px;
+        font-size: 15px;
+        font-weight: bold;
+        margin-left: 5px;
+}
+
+.masuk  {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.masuk:hover {
+    color: rgb(247, 73, 43);
+}
+
+.nav li a {
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.nav li a:hover {
+    color: rgb(247, 73, 43);
+}
+
+.headline {
+    margin-top: 20px;
+    height: 40px;
+    background-color: rgb(247, 73, 43);
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+}
+
+.headline button {
+    background-color: white;
+    height: 20px;
+    width: 110px;
+    border: none;
+    border-radius: 50px;
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.headline button a {
+    color: rgb(247, 73, 43);
+    text-decoration: none;
+}
+
+.headline marquee {
+    font-size: 13px;
+    color: white;
+    font-weight: bold;
+    justify-content: center;
+    margin-top: 13px;
+    margin-left: 8px;
+}
+
+.headline marquee a {
+    text-decoration: none;
+    color: white;
+}
+
+.bkanan .gambar img {
+    margin-top: 10px;
+    width: 750px;
+    border-radius: 8px 8px 0px 0px;
+ }
+
+ .bkanan p {
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: lightslategray;
+}
+
+.bkanan h1 {
+    margin-left: 10px;
+    color: black;
+}
+
+.bkanan a {
+    text-decoration: none;
+    
+}
+
+.bkanan h5 {
+    margin-left: 10px;
+    margin-top: 8px;
+    color: rgb(103, 107, 110);
+    font-weight: normal;
+}
+
+.bkanan hr {
+    width: 750px;
+    margin-left: 10px;
+    margin-top: 20px;
+    opacity: 0.2;
+}
+
+.bkiri .populer h2 {
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.bkiri .populer a {
+    text-decoration: none;
+    color: rgb(114, 114, 114);
+}
+
+.bkiri .populer a:hover {
+    color: rgb(247, 73, 43);
+}
+
+.bkiri .populer p {
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.bkiri .populer span {
+    letter-spacing: 18px;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(247, 73, 43);
+}
+
+.slid h4 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.slid a {
+    text-decoration: none;
+    color: black;
+}
+
+.bkiri .fakta .tum h3 {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.bkiri .fakta .tum a:hover {
+    color: rgb(247, 73, 43);
+}
+
+.bkiri .fakta .tum img {
+    width: 350px;
+    margin-left: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+.bkiri .fakta .tum p {
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.bkiri .fakta .tum a {
+    text-decoration: none;
+    color: black;
+}
+
+.bkiri .fakta .tum hr {
+    margin-top: 10px;
+    opacity: 0.3;
+    width: 350px;
+    margin-left: 10px;
+}
+
+
+.bkiri .tk1 {
+    display: flex;
+}
+
+.bkiri .tk1 img {
+   margin-top: 10px;
+   margin-left: 10px;
+}
+
+.bkiri .tk1 p {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+ }
+
+ .bkiri .tk1 a {
+  text-decoration: none;
+  color: black;
+ }
+
+ .bkiri .tk1 a:hover {
+    color: rgb(247, 73, 43);
+   }
+  
+
+ .bkiri hr {
+    margin-top: 10px;
+    opacity: 0.3;
+    width: 350px;
+    margin-left: 10px;
+}
+
+.bkiri .tk2 {
+    display: flex;
+}
+
+.bkiri .tk2 img {
+   margin-top: 10px;
+   margin-left: 10px;
+}
+
+.bkiri .tk2 p {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+ }
+
+ .bkiri .tk2 a {
+  text-decoration: none;
+  color: black;
+ }
+
+ .bkiri .tk2 a:hover {
+    color: rgb(247, 73, 43);
+   }
+
+ .bkiri hr {
+    margin-top: 10px;
+    opacity: 0.3;
+    width: 350px;
+    margin-left: 10px;
+}
+
+.berita .b1 img {
+    border-radius: 15px;
+}
+
+.slid h4 {
+    margin-bottom: 10px;
+}
+
+.slid .berita .b1 p {
+    margin-left: 0px;
+}
+
+.slid .berita .b1 a {
+    color: black;
+}
+
+.slid .berita .b1 a h3,
+.slid .berita .b2 a h3,
+.slid .berita .b3 a h3
+{
+    font-size: 20px;
+}
+
+.berita .b2 img {
+    border-radius: 15px;
+}
+
+.slid .berita .b2 p {
+    margin-left: 0px;
+}
+
+.slid .berita .b2 a {
+    color: black;
+}
+
+.berita .b3 img {
+    border-radius: 15px;
+}
+
+.slid .berita .b3 p {
+    margin-left: 0px;
+}
+
+.slid .berita .b3 a {
+    color: black;
+}
+
+.berita {
+    display: flex;
+    margin-left: 20px;
+}
+
+.artikel img {
+    width: 250px;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.artikel h5 {
+    margin-top: -15px;
+}
+
+.artikel p {
+    font-size: 13px;
+}
+
+.artikel p span {
+    font-weight: bold;
+    font-size: 13px;
+    color: rgb(247, 73, 43);
+}
+
+.visual .card img {
+    border-radius: 15px;
+}
+
+.visual img {
+    margin-bottom: 10px;
+}
+
+.loadmore button {
+    margin-top: 20px;
+}
+
+.footer {
+    margin-top: 20px;
+}
+
+.footer .footimg {
+    padding: 20px;
+}
+
+.footer h3 {
+    padding:  20px;
+}
+
+.footer .cf {
+    display: flex;
+}
+
+.footer ul li {
+    list-style-type: none;
+}
+
+
+
+.footer  a {
+    text-decoration: none;
+    color: rgb(71, 68, 68);
+    padding: 20px;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    margin-left: -30px;
+}
+
+.footer .footkiri .jarf {
+    display: flex;
+}
+
+.footer .footkiri .jarf ul li a{
+    color: rgb(156, 156, 156);   
+}
+
+.akhr p {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: -250px;
+    font-size: 13px;
+    color: rgb(156, 156, 156);
+}
+.akhr hr {
+    margin-top: 10px;
+    margin-left: -25px;
+}
+
+.populer h3 {
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.populer h3:hover {
+    color: rgb(247, 73, 43);
+}
+
+.populer h5 {
+    margin-left: 20px;
+}
+
+.populer .card p {
+    color: rgb(247, 73, 43);
+    font-weight: bold;
+    margin-top: 5px;
+    font-size: 12px;
+}
